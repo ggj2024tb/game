@@ -1,0 +1,4 @@
+# Start nginx locally & serve the game
+
+docker run -it --rm -d -p 80:80 --name ggj -v .:/usr/share/nginx/html nginx
+
